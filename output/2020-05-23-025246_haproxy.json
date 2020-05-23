@@ -1,0 +1,192 @@
+{
+  "RunType": "HTTP",
+  "Labels": "haproxy",
+  "StartTime": "2020-05-23T02:52:46.384883608Z",
+  "RequestedQPS": "max",
+  "RequestedDuration": "1m0s",
+  "ActualQPS": 28999.535348887388,
+  "ActualDuration": 60001788962,
+  "NumThreads": 64,
+  "Version": "1.3.1",
+  "DurationHistogram": {
+    "Count": 1740024,
+    "Min": 0.000124429,
+    "Max": 0.026044154,
+    "Sum": 3839.247960987998,
+    "Avg": 0.0022064339118242036,
+    "StdDev": 0.0020003820461779198,
+    "Data": [
+      {
+        "Start": 0.000124429,
+        "End": 0.001,
+        "Percent": 34.20010298708524,
+        "Count": 595090
+      },
+      {
+        "Start": 0.001,
+        "End": 0.002,
+        "Percent": 60.792264934276766,
+        "Count": 462710
+      },
+      {
+        "Start": 0.002,
+        "End": 0.003,
+        "Percent": 74.9622993705834,
+        "Count": 246562
+      },
+      {
+        "Start": 0.003,
+        "End": 0.004,
+        "Percent": 83.9499914943702,
+        "Count": 156388
+      },
+      {
+        "Start": 0.004,
+        "End": 0.005,
+        "Percent": 89.92881707378749,
+        "Count": 104033
+      },
+      {
+        "Start": 0.005,
+        "End": 0.006,
+        "Percent": 93.85617669641339,
+        "Count": 68337
+      },
+      {
+        "Start": 0.006,
+        "End": 0.007,
+        "Percent": 96.39769336514898,
+        "Count": 44223
+      },
+      {
+        "Start": 0.007,
+        "End": 0.008,
+        "Percent": 97.98588984979517,
+        "Count": 27635
+      },
+      {
+        "Start": 0.008,
+        "End": 0.009000000000000001,
+        "Percent": 98.91311843974566,
+        "Count": 16134
+      },
+      {
+        "Start": 0.009000000000000001,
+        "End": 0.01,
+        "Percent": 99.4389732555413,
+        "Count": 9150
+      },
+      {
+        "Start": 0.01,
+        "End": 0.011,
+        "Percent": 99.72684284814463,
+        "Count": 5009
+      },
+      {
+        "Start": 0.011,
+        "End": 0.012,
+        "Percent": 99.86735815138182,
+        "Count": 2445
+      },
+      {
+        "Start": 0.012,
+        "End": 0.014,
+        "Percent": 99.96649471501543,
+        "Count": 1725
+      },
+      {
+        "Start": 0.014,
+        "End": 0.016,
+        "Percent": 99.99034496075916,
+        "Count": 415
+      },
+      {
+        "Start": 0.016,
+        "End": 0.018000000000000002,
+        "Percent": 99.99637936028469,
+        "Count": 105
+      },
+      {
+        "Start": 0.018000000000000002,
+        "End": 0.02,
+        "Percent": 99.99850576773653,
+        "Count": 37
+      },
+      {
+        "Start": 0.02,
+        "End": 0.025,
+        "Percent": 99.99994252952833,
+        "Count": 25
+      },
+      {
+        "Start": 0.025,
+        "End": 0.026044154,
+        "Percent": 100,
+        "Count": 1
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.0015941561669296105
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.0030041946952451596
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.005018124881103941
+      },
+      {
+        "Percentile": 99,
+        "Value": 0.009165219672131148
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 0.012658522898550786
+      }
+    ]
+  },
+  "Exactly": 0,
+  "RetCodes": {
+    "200": 1740024
+  },
+  "Sizes": {
+    "Count": 1740024,
+    "Min": 5118,
+    "Max": 5118,
+    "Sum": 8905442832,
+    "Avg": 5118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 5118,
+        "End": 5118,
+        "Percent": 100,
+        "Count": 1740024
+      }
+    ],
+    "Percentiles": null
+  },
+  "HeaderSizes": {
+    "Count": 1740024,
+    "Min": 118,
+    "Max": 118,
+    "Sum": 205322832,
+    "Avg": 118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 118,
+        "End": 118,
+        "Percent": 100,
+        "Count": 1740024
+      }
+    ],
+    "Percentiles": null
+  },
+  "URL": "http://localhost:2000/echo",
+  "SocketCount": 64,
+  "AbortOn": 0
+}
