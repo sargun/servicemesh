@@ -177,9 +177,9 @@ int main(int argc, char *argv[])
 		flags = 1;
 		assert(setsockopt(sock, SOL_TCP, TCP_NODELAY, (void*)&flags, sizeof(flags)) == 0);
 
-		flags = 110000;
+		flags = 16000;
 		assert(setsockopt(sock, SOL_SOCKET, SO_SNDBUF, (void*)&flags, sizeof(flags)) == 0);
-		flags = 110000;
+		flags = 16000;
 		assert(setsockopt(sock, SOL_SOCKET, SO_RCVBUF, (void*)&flags, sizeof(flags)) == 0);
 #endif
 
