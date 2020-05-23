@@ -1,0 +1,102 @@
+{
+  "RunType": "HTTP",
+  "Labels": "haproxy",
+  "StartTime": "2020-05-23T12:10:14.54181336Z",
+  "RequestedQPS": "1000",
+  "RequestedDuration": "5m0s",
+  "ActualQPS": 999.993729619318,
+  "ActualDuration": 300001881126,
+  "NumThreads": 25,
+  "Version": "1.3.1",
+  "DurationHistogram": {
+    "Count": 300000,
+    "Min": 0.000213967,
+    "Max": 0.00262436,
+    "Sum": 304.0088202069999,
+    "Avg": 0.001013362734023333,
+    "StdDev": 0.00022003842741859732,
+    "Data": [
+      {
+        "Start": 0.000213967,
+        "End": 0.001,
+        "Percent": 43.187333333333335,
+        "Count": 129562
+      },
+      {
+        "Start": 0.001,
+        "End": 0.002,
+        "Percent": 99.988,
+        "Count": 170402
+      },
+      {
+        "Start": 0.002,
+        "End": 0.00262436,
+        "Percent": 100,
+        "Count": 36
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.0011199399068086056
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.001560075585967301
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.001824156993462518
+      },
+      {
+        "Percentile": 99,
+        "Value": 0.0019826058379596484
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 0.0019984507224093616
+      }
+    ]
+  },
+  "Exactly": 0,
+  "RetCodes": {
+    "200": 300000
+  },
+  "Sizes": {
+    "Count": 300000,
+    "Min": 5118,
+    "Max": 5118,
+    "Sum": 1535400000,
+    "Avg": 5118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 5118,
+        "End": 5118,
+        "Percent": 100,
+        "Count": 300000
+      }
+    ],
+    "Percentiles": null
+  },
+  "HeaderSizes": {
+    "Count": 300000,
+    "Min": 118,
+    "Max": 118,
+    "Sum": 35400000,
+    "Avg": 118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 118,
+        "End": 118,
+        "Percent": 100,
+        "Count": 300000
+      }
+    ],
+    "Percentiles": null
+  },
+  "URL": "http://localhost:2000/echo",
+  "SocketCount": 25,
+  "AbortOn": 0
+}

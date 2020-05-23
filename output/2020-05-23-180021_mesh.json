@@ -1,0 +1,108 @@
+{
+  "RunType": "HTTP",
+  "Labels": "mesh",
+  "StartTime": "2020-05-23T18:00:21.211087137Z",
+  "RequestedQPS": "1000",
+  "RequestedDuration": "5m0s",
+  "ActualQPS": 999.9972667741372,
+  "ActualDuration": 300000819970,
+  "NumThreads": 8,
+  "Version": "1.3.1",
+  "DurationHistogram": {
+    "Count": 300000,
+    "Min": 0.000124679,
+    "Max": 0.003452889,
+    "Sum": 110.06876583800045,
+    "Avg": 0.00036689588612666814,
+    "StdDev": 0.00008905455443856649,
+    "Data": [
+      {
+        "Start": 0.000124679,
+        "End": 0.001,
+        "Percent": 99.98566666666666,
+        "Count": 299957
+      },
+      {
+        "Start": 0.001,
+        "End": 0.002,
+        "Percent": 99.999,
+        "Count": 40
+      },
+      {
+        "Start": 0.002,
+        "End": 0.003,
+        "Percent": 99.99933333333334,
+        "Count": 1
+      },
+      {
+        "Start": 0.003,
+        "End": 0.003452889,
+        "Percent": 100,
+        "Count": 2
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.0005624007814579472
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.000781263131269253
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.0009125805411560363
+      },
+      {
+        "Percentile": 99,
+        "Value": 0.0009913709870881064
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 0.0009992500316813135
+      }
+    ]
+  },
+  "Exactly": 0,
+  "RetCodes": {
+    "200": 300000
+  },
+  "Sizes": {
+    "Count": 300000,
+    "Min": 5118,
+    "Max": 5118,
+    "Sum": 1535400000,
+    "Avg": 5118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 5118,
+        "End": 5118,
+        "Percent": 100,
+        "Count": 300000
+      }
+    ],
+    "Percentiles": null
+  },
+  "HeaderSizes": {
+    "Count": 300000,
+    "Min": 118,
+    "Max": 118,
+    "Sum": 35400000,
+    "Avg": 118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 118,
+        "End": 118,
+        "Percent": 100,
+        "Count": 300000
+      }
+    ],
+    "Percentiles": null
+  },
+  "URL": "http://localhost:2002/echo",
+  "SocketCount": 8,
+  "AbortOn": 0
+}

@@ -1,0 +1,192 @@
+{
+  "RunType": "HTTP",
+  "Labels": "haproxy",
+  "StartTime": "2020-05-23T11:15:13.235622504Z",
+  "RequestedQPS": "max",
+  "RequestedDuration": "5m0s",
+  "ActualQPS": 35257.31664519709,
+  "ActualDuration": 300002042312,
+  "NumThreads": 50,
+  "Version": "1.3.1",
+  "DurationHistogram": {
+    "Count": 10577267,
+    "Min": 0.000130937,
+    "Max": 0.028956497,
+    "Sum": 14996.189497324985,
+    "Avg": 0.0014177754515722243,
+    "StdDev": 0.0009662515310161495,
+    "Data": [
+      {
+        "Start": 0.000130937,
+        "End": 0.001,
+        "Percent": 39.05760344330913,
+        "Count": 4131227
+      },
+      {
+        "Start": 0.001,
+        "End": 0.002,
+        "Percent": 80.50347977412312,
+        "Count": 4383841
+      },
+      {
+        "Start": 0.002,
+        "End": 0.003,
+        "Percent": 93.73497898842868,
+        "Count": 1399531
+      },
+      {
+        "Start": 0.003,
+        "End": 0.004,
+        "Percent": 97.79739889330581,
+        "Count": 429693
+      },
+      {
+        "Start": 0.004,
+        "End": 0.005,
+        "Percent": 99.12026424217144,
+        "Count": 139923
+      },
+      {
+        "Start": 0.005,
+        "End": 0.006,
+        "Percent": 99.59711710028687,
+        "Count": 50438
+      },
+      {
+        "Start": 0.006,
+        "End": 0.007,
+        "Percent": 99.7920540343739,
+        "Count": 20619
+      },
+      {
+        "Start": 0.007,
+        "End": 0.008,
+        "Percent": 99.88939486920393,
+        "Count": 10296
+      },
+      {
+        "Start": 0.008,
+        "End": 0.009000000000000001,
+        "Percent": 99.94052338850858,
+        "Count": 5408
+      },
+      {
+        "Start": 0.009000000000000001,
+        "End": 0.01,
+        "Percent": 99.96817703476711,
+        "Count": 2925
+      },
+      {
+        "Start": 0.01,
+        "End": 0.011,
+        "Percent": 99.98174386635036,
+        "Count": 1435
+      },
+      {
+        "Start": 0.011,
+        "End": 0.012,
+        "Percent": 99.98865491435548,
+        "Count": 731
+      },
+      {
+        "Start": 0.012,
+        "End": 0.014,
+        "Percent": 99.99639793530787,
+        "Count": 819
+      },
+      {
+        "Start": 0.014,
+        "End": 0.016,
+        "Percent": 99.99837387105762,
+        "Count": 209
+      },
+      {
+        "Start": 0.016,
+        "End": 0.018000000000000002,
+        "Percent": 99.9994138372417,
+        "Count": 110
+      },
+      {
+        "Start": 0.018000000000000002,
+        "End": 0.02,
+        "Percent": 99.99987709490551,
+        "Count": 49
+      },
+      {
+        "Start": 0.02,
+        "End": 0.025,
+        "Percent": 99.99994327457178,
+        "Count": 7
+      },
+      {
+        "Start": 0.025,
+        "End": 0.028956497,
+        "Percent": 100,
+        "Count": 6
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.0012640165325339128
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.0018672128505573082
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.0027177206507037
+      },
+      {
+        "Percentile": 99,
+        "Value": 0.0049090880698669966
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 0.00820742104289952
+      }
+    ]
+  },
+  "Exactly": 0,
+  "RetCodes": {
+    "200": 10577267
+  },
+  "Sizes": {
+    "Count": 10577267,
+    "Min": 5118,
+    "Max": 5118,
+    "Sum": 54134452506,
+    "Avg": 5118,
+    "StdDev": 0.00005435484694666019,
+    "Data": [
+      {
+        "Start": 5118,
+        "End": 5118,
+        "Percent": 100,
+        "Count": 10577267
+      }
+    ],
+    "Percentiles": null
+  },
+  "HeaderSizes": {
+    "Count": 10577267,
+    "Min": 118,
+    "Max": 118,
+    "Sum": 1248117506,
+    "Avg": 118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 118,
+        "End": 118,
+        "Percent": 100,
+        "Count": 10577267
+      }
+    ],
+    "Percentiles": null
+  },
+  "URL": "http://localhost:2000/echo",
+  "SocketCount": 50,
+  "AbortOn": 0
+}

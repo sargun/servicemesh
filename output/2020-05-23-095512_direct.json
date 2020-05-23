@@ -1,0 +1,102 @@
+{
+  "RunType": "HTTP",
+  "Labels": "direct",
+  "StartTime": "2020-05-23T09:55:12.312318923Z",
+  "RequestedQPS": "1000",
+  "RequestedDuration": "5m0s",
+  "ActualQPS": 999.9980394405104,
+  "ActualDuration": 300000588169,
+  "NumThreads": 4,
+  "Version": "1.3.1",
+  "DurationHistogram": {
+    "Count": 300000,
+    "Min": 0.000120266,
+    "Max": 0.017817419,
+    "Sum": 94.55560831299985,
+    "Avg": 0.0003151853610433328,
+    "StdDev": 0.000093717690877579,
+    "Data": [
+      {
+        "Start": 0.000120266,
+        "End": 0.001,
+        "Percent": 99.989,
+        "Count": 299967
+      },
+      {
+        "Start": 0.001,
+        "End": 0.002,
+        "Percent": 99.99866666666667,
+        "Count": 29
+      },
+      {
+        "Start": 0.016,
+        "End": 0.017817419,
+        "Percent": 100,
+        "Count": 4
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.0005601799244647727
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.0007801383530866833
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.0009121134102598296
+      },
+      {
+        "Percentile": 99,
+        "Value": 0.0009912984445637173
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 0.000999216947994106
+      }
+    ]
+  },
+  "Exactly": 0,
+  "RetCodes": {
+    "200": 300000
+  },
+  "Sizes": {
+    "Count": 300000,
+    "Min": 5118,
+    "Max": 5118,
+    "Sum": 1535400000,
+    "Avg": 5118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 5118,
+        "End": 5118,
+        "Percent": 100,
+        "Count": 300000
+      }
+    ],
+    "Percentiles": null
+  },
+  "HeaderSizes": {
+    "Count": 300000,
+    "Min": 118,
+    "Max": 118,
+    "Sum": 35400000,
+    "Avg": 118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 118,
+        "End": 118,
+        "Percent": 100,
+        "Count": 300000
+      }
+    ],
+    "Percentiles": null
+  },
+  "URL": "http://localhost:5000/echo",
+  "SocketCount": 4,
+  "AbortOn": 0
+}

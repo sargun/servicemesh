@@ -1,0 +1,108 @@
+{
+  "RunType": "HTTP",
+  "Labels": "mesh",
+  "StartTime": "2020-05-23T16:50:19.972659327Z",
+  "RequestedQPS": "max",
+  "RequestedDuration": "5m0s",
+  "ActualQPS": 5948.409332952112,
+  "ActualDuration": 300000369866,
+  "NumThreads": 1,
+  "Version": "1.3.1",
+  "DurationHistogram": {
+    "Count": 1784525,
+    "Min": 0.000052438,
+    "Max": 0.003611599,
+    "Sum": 299.39673320200654,
+    "Avg": 0.00016777390801586223,
+    "StdDev": 0.000055105677700543987,
+    "Data": [
+      {
+        "Start": 0.000052438,
+        "End": 0.001,
+        "Percent": 99.99882321626202,
+        "Count": 1784504
+      },
+      {
+        "Start": 0.001,
+        "End": 0.002,
+        "Percent": 99.9998879253583,
+        "Count": 19
+      },
+      {
+        "Start": 0.002,
+        "End": 0.003,
+        "Percent": 99.99994396267914,
+        "Count": 1
+      },
+      {
+        "Start": 0.003,
+        "End": 0.003611599,
+        "Percent": 100,
+        "Count": 1
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.0005262243099490448
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.0007631177304210192
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.000905253782704204
+      },
+      {
+        "Percentile": 99,
+        "Value": 0.0009905354140741147
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 0.0009990635772111059
+      }
+    ]
+  },
+  "Exactly": 0,
+  "RetCodes": {
+    "200": 1784525
+  },
+  "Sizes": {
+    "Count": 1784525,
+    "Min": 5118,
+    "Max": 5118,
+    "Sum": 9133198950,
+    "Avg": 5118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 5118,
+        "End": 5118,
+        "Percent": 100,
+        "Count": 1784525
+      }
+    ],
+    "Percentiles": null
+  },
+  "HeaderSizes": {
+    "Count": 1784525,
+    "Min": 118,
+    "Max": 118,
+    "Sum": 210573950,
+    "Avg": 118,
+    "StdDev": 0.0000014620718677313747,
+    "Data": [
+      {
+        "Start": 118,
+        "End": 118,
+        "Percent": 100,
+        "Count": 1784525
+      }
+    ],
+    "Percentiles": null
+  },
+  "URL": "http://localhost:2002/echo",
+  "SocketCount": 1,
+  "AbortOn": 0
+}

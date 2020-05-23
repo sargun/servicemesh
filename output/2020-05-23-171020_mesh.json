@@ -1,0 +1,192 @@
+{
+  "RunType": "HTTP",
+  "Labels": "mesh",
+  "StartTime": "2020-05-23T17:10:20.106920343Z",
+  "RequestedQPS": "max",
+  "RequestedDuration": "5m0s",
+  "ActualQPS": 55743.16518722196,
+  "ActualDuration": 300001030509,
+  "NumThreads": 25,
+  "Version": "1.3.1",
+  "DurationHistogram": {
+    "Count": 16723007,
+    "Min": 0.000047177,
+    "Max": 0.026847624,
+    "Sum": 7494.188943436105,
+    "Avg": 0.0004481364471973315,
+    "StdDev": 0.0006143467478924341,
+    "Data": [
+      {
+        "Start": 0.000047177,
+        "End": 0.001,
+        "Percent": 92.25244000675238,
+        "Count": 15427382
+      },
+      {
+        "Start": 0.001,
+        "End": 0.002,
+        "Percent": 97.44047227869964,
+        "Count": 867595
+      },
+      {
+        "Start": 0.002,
+        "End": 0.003,
+        "Percent": 98.87268479885226,
+        "Count": 239509
+      },
+      {
+        "Start": 0.003,
+        "End": 0.004,
+        "Percent": 99.43268576040182,
+        "Count": 93649
+      },
+      {
+        "Start": 0.004,
+        "End": 0.005,
+        "Percent": 99.6918795764422,
+        "Count": 43345
+      },
+      {
+        "Start": 0.005,
+        "End": 0.006,
+        "Percent": 99.8298451947069,
+        "Count": 23072
+      },
+      {
+        "Start": 0.006,
+        "End": 0.007,
+        "Percent": 99.90632067546225,
+        "Count": 12789
+      },
+      {
+        "Start": 0.007,
+        "End": 0.008,
+        "Percent": 99.94823897400748,
+        "Count": 7010
+      },
+      {
+        "Start": 0.008,
+        "End": 0.009000000000000001,
+        "Percent": 99.97008911136615,
+        "Count": 3654
+      },
+      {
+        "Start": 0.009000000000000001,
+        "End": 0.01,
+        "Percent": 99.98280213600341,
+        "Count": 2126
+      },
+      {
+        "Start": 0.01,
+        "End": 0.011,
+        "Percent": 99.98991210133441,
+        "Count": 1189
+      },
+      {
+        "Start": 0.011,
+        "End": 0.012,
+        "Percent": 99.99396639611524,
+        "Count": 678
+      },
+      {
+        "Start": 0.012,
+        "End": 0.014,
+        "Percent": 99.99772768139127,
+        "Count": 629
+      },
+      {
+        "Start": 0.014,
+        "End": 0.016,
+        "Percent": 99.99907911298489,
+        "Count": 226
+      },
+      {
+        "Start": 0.016,
+        "End": 0.018000000000000002,
+        "Percent": 99.99954553627825,
+        "Count": 78
+      },
+      {
+        "Start": 0.018000000000000002,
+        "End": 0.02,
+        "Percent": 99.99982060642563,
+        "Count": 46
+      },
+      {
+        "Start": 0.02,
+        "End": 0.025,
+        "Percent": 99.99998804042838,
+        "Count": 28
+      },
+      {
+        "Start": 0.025,
+        "End": 0.026847624,
+        "Percent": 100,
+        "Count": 2
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.0005635985427464649
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.0008218093450006031
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.000976735826353086
+      },
+      {
+        "Percentile": 99,
+        "Value": 0.0032273481831092713
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 0.0069173503010400315
+      }
+    ]
+  },
+  "Exactly": 0,
+  "RetCodes": {
+    "200": 16723007
+  },
+  "Sizes": {
+    "Count": 16723007,
+    "Min": 5118,
+    "Max": 5118,
+    "Sum": 85588349826,
+    "Avg": 5118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 5118,
+        "End": 5118,
+        "Percent": 100,
+        "Count": 16723007
+      }
+    ],
+    "Percentiles": null
+  },
+  "HeaderSizes": {
+    "Count": 16723007,
+    "Min": 118,
+    "Max": 118,
+    "Sum": 1973314826,
+    "Avg": 118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 118,
+        "End": 118,
+        "Percent": 100,
+        "Count": 16723007
+      }
+    ],
+    "Percentiles": null
+  },
+  "URL": "http://localhost:2002/echo",
+  "SocketCount": 25,
+  "AbortOn": 0
+}

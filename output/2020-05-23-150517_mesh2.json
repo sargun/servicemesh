@@ -1,0 +1,192 @@
+{
+  "RunType": "HTTP",
+  "Labels": "mesh2",
+  "StartTime": "2020-05-23T15:05:17.886826487Z",
+  "RequestedQPS": "max",
+  "RequestedDuration": "5m0s",
+  "ActualQPS": 40769.036983062455,
+  "ActualDuration": 300000537297,
+  "NumThreads": 12,
+  "Version": "1.3.1",
+  "DurationHistogram": {
+    "Count": 12230733,
+    "Min": 0.000050713,
+    "Max": 0.02616386,
+    "Sum": 3595.348080447977,
+    "Avg": 0.00029396014780536675,
+    "StdDev": 0.0002892054278562528,
+    "Data": [
+      {
+        "Start": 0.000050713,
+        "End": 0.001,
+        "Percent": 98.29246538208298,
+        "Count": 12021889
+      },
+      {
+        "Start": 0.001,
+        "End": 0.002,
+        "Percent": 99.78277671501782,
+        "Count": 182276
+      },
+      {
+        "Start": 0.002,
+        "End": 0.003,
+        "Percent": 99.89898397749342,
+        "Count": 14213
+      },
+      {
+        "Start": 0.003,
+        "End": 0.004,
+        "Percent": 99.92956268442782,
+        "Count": 3740
+      },
+      {
+        "Start": 0.004,
+        "End": 0.005,
+        "Percent": 99.94843318057879,
+        "Count": 2308
+      },
+      {
+        "Start": 0.005,
+        "End": 0.006,
+        "Percent": 99.96190743432958,
+        "Count": 1648
+      },
+      {
+        "Start": 0.006,
+        "End": 0.007,
+        "Percent": 99.97384457660878,
+        "Count": 1460
+      },
+      {
+        "Start": 0.007,
+        "End": 0.008,
+        "Percent": 99.98252762119817,
+        "Count": 1062
+      },
+      {
+        "Start": 0.008,
+        "End": 0.009000000000000001,
+        "Percent": 99.98843895946383,
+        "Count": 723
+      },
+      {
+        "Start": 0.009000000000000001,
+        "End": 0.01,
+        "Percent": 99.99239620389064,
+        "Count": 484
+      },
+      {
+        "Start": 0.01,
+        "End": 0.011,
+        "Percent": 99.99490627421922,
+        "Count": 307
+      },
+      {
+        "Start": 0.011,
+        "End": 0.012,
+        "Percent": 99.99661508431261,
+        "Count": 209
+      },
+      {
+        "Start": 0.012,
+        "End": 0.014,
+        "Percent": 99.99834842278055,
+        "Count": 212
+      },
+      {
+        "Start": 0.014,
+        "End": 0.016,
+        "Percent": 99.99939496676119,
+        "Count": 128
+      },
+      {
+        "Start": 0.016,
+        "End": 0.018000000000000002,
+        "Percent": 99.99971383563029,
+        "Count": 39
+      },
+      {
+        "Start": 0.018000000000000002,
+        "End": 0.02,
+        "Percent": 99.99990188650182,
+        "Count": 23
+      },
+      {
+        "Start": 0.02,
+        "End": 0.025,
+        "Percent": 99.99997547162545,
+        "Count": 9
+      },
+      {
+        "Start": 0.025,
+        "End": 0.02616386,
+        "Percent": 100,
+        "Count": 3
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.0005336019579905004
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.0007750464764673611
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.0009199131875534775
+      },
+      {
+        "Percentile": 99,
+        "Value": 0.0014747562487656101
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 0.0030332264705884957
+      }
+    ]
+  },
+  "Exactly": 0,
+  "RetCodes": {
+    "200": 12230733
+  },
+  "Sizes": {
+    "Count": 12230733,
+    "Min": 5118,
+    "Max": 5118,
+    "Sum": 62596891494,
+    "Avg": 5118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 5118,
+        "End": 5118,
+        "Percent": 100,
+        "Count": 12230733
+      }
+    ],
+    "Percentiles": null
+  },
+  "HeaderSizes": {
+    "Count": 12230733,
+    "Min": 118,
+    "Max": 118,
+    "Sum": 1443226494,
+    "Avg": 118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 118,
+        "End": 118,
+        "Percent": 100,
+        "Count": 12230733
+      }
+    ],
+    "Percentiles": null
+  },
+  "URL": "http://localhost:2002/echo",
+  "SocketCount": 12,
+  "AbortOn": 0
+}

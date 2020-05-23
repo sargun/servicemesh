@@ -1,0 +1,114 @@
+{
+  "RunType": "HTTP",
+  "Labels": "mesh",
+  "StartTime": "2020-05-23T18:05:21.232413181Z",
+  "RequestedQPS": "1000",
+  "RequestedDuration": "5m0s",
+  "ActualQPS": 999.9960182525211,
+  "ActualDuration": 300001194529,
+  "NumThreads": 12,
+  "Version": "1.3.1",
+  "DurationHistogram": {
+    "Count": 300000,
+    "Min": 0.000110339,
+    "Max": 0.005506462,
+    "Sum": 129.7767371409999,
+    "Avg": 0.00043258912380333297,
+    "StdDev": 0.00010308918426392278,
+    "Data": [
+      {
+        "Start": 0.000110339,
+        "End": 0.001,
+        "Percent": 99.95033333333333,
+        "Count": 299851
+      },
+      {
+        "Start": 0.001,
+        "End": 0.002,
+        "Percent": 99.99833333333333,
+        "Count": 144
+      },
+      {
+        "Start": 0.003,
+        "End": 0.004,
+        "Percent": 99.99933333333334,
+        "Count": 3
+      },
+      {
+        "Start": 0.004,
+        "End": 0.005,
+        "Percent": 99.99966666666667,
+        "Count": 1
+      },
+      {
+        "Start": 0.005,
+        "End": 0.005506462,
+        "Percent": 100,
+        "Count": 1
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.0005553890594930798
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.0007779155727497081
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.0009114314807036852
+      },
+      {
+        "Percentile": 99,
+        "Value": 0.0009915410254760714
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 0.0009995519799533101
+      }
+    ]
+  },
+  "Exactly": 0,
+  "RetCodes": {
+    "200": 300000
+  },
+  "Sizes": {
+    "Count": 300000,
+    "Min": 5118,
+    "Max": 5118,
+    "Sum": 1535400000,
+    "Avg": 5118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 5118,
+        "End": 5118,
+        "Percent": 100,
+        "Count": 300000
+      }
+    ],
+    "Percentiles": null
+  },
+  "HeaderSizes": {
+    "Count": 300000,
+    "Min": 118,
+    "Max": 118,
+    "Sum": 35400000,
+    "Avg": 118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 118,
+        "End": 118,
+        "Percent": 100,
+        "Count": 300000
+      }
+    ],
+    "Percentiles": null
+  },
+  "URL": "http://localhost:2002/echo",
+  "SocketCount": 12,
+  "AbortOn": 0
+}
