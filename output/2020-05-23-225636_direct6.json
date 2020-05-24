@@ -1,0 +1,96 @@
+{
+  "RunType": "HTTP",
+  "Labels": "direct6",
+  "StartTime": "2020-05-23T22:56:36.758299111Z",
+  "RequestedQPS": "1000",
+  "RequestedDuration": "5m0s",
+  "ActualQPS": 999.9983880759316,
+  "ActualDuration": 300000483578,
+  "NumThreads": 1,
+  "Version": "1.3.1",
+  "DurationHistogram": {
+    "Count": 300000,
+    "Min": 0.000122552,
+    "Max": 0.001160302,
+    "Sum": 67.66791376800047,
+    "Avg": 0.00022555971256000158,
+    "StdDev": 0.00003871812925614458,
+    "Data": [
+      {
+        "Start": 0.000122552,
+        "End": 0.001,
+        "Percent": 99.99866666666667,
+        "Count": 299996
+      },
+      {
+        "Start": 0.001,
+        "End": 0.001160302,
+        "Percent": 100,
+        "Count": 4
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 0.0005612803873131218
+      },
+      {
+        "Percentile": 75,
+        "Value": 0.0007806460434073902
+      },
+      {
+        "Percentile": 90,
+        "Value": 0.0009122654370639512
+      },
+      {
+        "Percentile": 99,
+        "Value": 0.0009912370732578877
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 0.0009991342368772813
+      }
+    ]
+  },
+  "Exactly": 0,
+  "RetCodes": {
+    "200": 300000
+  },
+  "Sizes": {
+    "Count": 300000,
+    "Min": 5118,
+    "Max": 5118,
+    "Sum": 1535400000,
+    "Avg": 5118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 5118,
+        "End": 5118,
+        "Percent": 100,
+        "Count": 300000
+      }
+    ],
+    "Percentiles": null
+  },
+  "HeaderSizes": {
+    "Count": 300000,
+    "Min": 118,
+    "Max": 118,
+    "Sum": 35400000,
+    "Avg": 118,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 118,
+        "End": 118,
+        "Percent": 100,
+        "Count": 300000
+      }
+    ],
+    "Percentiles": null
+  },
+  "URL": "http://ip6-localhost:5000/echo",
+  "SocketCount": 1,
+  "AbortOn": 0
+}
